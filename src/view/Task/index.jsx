@@ -32,7 +32,7 @@ const Task = ({ task, index }) => {
                     {task.type === 'text' ? (
                         <p>{task.content}</p>
                     ) : (
-                        <ul className={styles.ul}>
+                        <ul style={{ paddingLeft: '20px', marginTop: '10px' }}>
                             {task.content.map((subtask, subtaskIndex) => (
                                 <li key={subtaskIndex} style={{ listStyle: 'none', marginBottom: '5px' }}>
                                     <input
