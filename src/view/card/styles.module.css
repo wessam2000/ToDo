@@ -1,0 +1,15 @@
+.main {
+    margin: '0 8px';
+    padding: '30px';
+    border: '1px solid lightgrey';
+    background-color: rgba(210, 195, 195, 0.407);
+    border-radius: '20%';
+    height: "auto";
+    width: "30%";
+}
+
+.task {
+    padding: '10px';
+    min-height: '100px';
+    
+}
